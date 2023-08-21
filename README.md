@@ -1,7 +1,7 @@
 # Electronics Store React App demo
 
 ## Demo that uses React and Json server as a dummy database with a few electronic products in it
-The app displays a list of products that u can add to a shopping basket. The number of each item that was added to the basket is displayed on each product.
+The app displays a list of products that you can add to a shopping basket. The number of each item that was added to the basket is displayed on each product.
 A separate view is created using react-router-dom to display the basket. In there you can see the total price and remove whatever items you wish.
 
 ## How to run the project
