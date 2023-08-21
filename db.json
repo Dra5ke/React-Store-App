@@ -33,16 +33,16 @@
   ],
   "basket": [
     {
-      "id": 4275,
-      "name": "Lenovo ThinkPad Y5800 I9-6300HQ 3.4GHz RTX 3070M 16GB RAM 2TB M.2 Storage 17\" Display",
-      "price": 15000,
-      "productId": 3
-    },
-    {
-      "id": 2891,
+      "id": 1678,
       "name": "IPhone 17 128GB Barbie Pink",
       "price": 7000,
       "productId": 2
+    },
+    {
+      "id": 4093,
+      "name": "Samsung Galaxy A34 5G 256GB/8GB - Silver",
+      "price": 3300,
+      "productId": 5
     }
   ]
 }

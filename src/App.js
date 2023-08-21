@@ -94,6 +94,7 @@ function App() {
                 {products.length > 0 ? (
                   <ProductList
                     products={products}
+                    basket={basket}
                     onAddToBasket={addToBasket}
                   />
                 ) : (

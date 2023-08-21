@@ -1,7 +1,12 @@
 import { Truncate } from "@primer/react";
 import { FaShoppingCart, FaTimes } from "react-icons/fa";
 
-const Product = ({ product, onAddToBasket, onRemoveFromBasket }) => {
+const Product = ({
+  product,
+  onAddToBasket,
+  onRemoveFromBasket,
+  basketCount,
+}) => {
   return (
     <div className="product">
       <h3>
@@ -10,9 +15,8 @@ const Product = ({ product, onAddToBasket, onRemoveFromBasket }) => {
         </Truncate>
       </h3>
       <div className="productFooter">
-        <span className="price">
-          DKK {product.price} {}
-        </span>
+        <span className="price">DKK {product.price}</span>
+        {basketCount > 0 && <span>{basketCount} in basket</span>}
         {onAddToBasket ? (
           <FaShoppingCart
             className="shoppingCart"
