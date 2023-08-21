@@ -8,7 +8,7 @@ A separate view is created using react-router-dom to display the basket. In ther
 After cloning the repo you will need two separate terminals
 
 1. In the first terminal run the script `npm run server`
-2. In the second terminal run the scrupt `npm run start`
+2. In the second terminal run the script `npm run start`
 
 This will run the app in development mode
 
