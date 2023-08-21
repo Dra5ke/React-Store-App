@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Philips PUS5500S 65\" OLED 4K TV",
+      "price": 30000
+    },
+    {
+      "id": 2,
+      "name": "IPhone 17 128GB Barbie Pink",
+      "price": 7000
+    },
+    {
+      "id": 3,
+      "name": "Lenovo ThinkPad Y5800 I9-6300HQ 3.4GHz RTX 3070M 16GB RAM 2TB M.2 Storage 17\" Display",
+      "price": 15000
+    },
+    {
+      "id": 4,
+      "name": "ASUS TUF FA617NS-N3002W - 16\" - Ryzen 7 7735HS - AMD Radeon RX 7600S - 16GB DDR5 / 512GB",
+      "price": 8900
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy A34 5G 256GB/8GB - Silver",
+      "price": 3300
+    },
+    {
+      "id": 6,
+      "name": "RIG 300 Pro HN Gaming Headset - Black",
+      "price": 200
+    }
+  ],
+  "basket": [
+    {
+      "id": 4275,
+      "name": "Lenovo ThinkPad Y5800 I9-6300HQ 3.4GHz RTX 3070M 16GB RAM 2TB M.2 Storage 17\" Display",
+      "price": 15000,
+      "productId": 3
+    },
+    {
+      "id": 2891,
+      "name": "IPhone 17 128GB Barbie Pink",
+      "price": 7000,
+      "productId": 2
+    }
+  ]
+}

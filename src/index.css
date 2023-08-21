@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  max-width: 30%;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkWithoutStyles:link,
+.linkWithoutStyles:visited {
+  text-decoration: none;
+  color: inherit; /* This will inherit the color from the parent element */
+}
+
+.product {
+  background: #f4f4f4;
+  margin: 5px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.product h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product .productFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.shoppingCart {
+  padding: 1%;
+  cursor: "pointer"
+}
+
+.shoppingCart:hover {
+  color: 	#5A5A5A;
+}
+
+.price {
+  color: rgb(141, 17, 17);
+}
+
+.shoppingBasket {
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.shoppingBasket:hover {
+  color: 	#5A5A5A;
+}
+
+.backButton {
+  background: #f4f4f4;
+  display: flex;
+  margin: 5px;
+  margin-top: 15px;
+  width: 16%;
+}
+
+.backButtonContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.arrowRightBack {
+  margin-right: 2%;
+}
